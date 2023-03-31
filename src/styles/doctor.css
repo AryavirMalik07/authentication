@@ -1,0 +1,29 @@
+.doctor {
+  height: 80rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 800px;
+}
+/* .active {
+  border-color: var(--primary-head-color);
+} */
+
+.text-color {
+  font-size: 1.6rem;
+  color: var(--text-color-gray);
+}
+.identity-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 0.5rem; */
+}
+@media screen and (max-width: 767px) {
+  .doctor {
+    width: 400px;
+    height: 600px;
+  }
+}
