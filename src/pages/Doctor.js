@@ -27,7 +27,7 @@ const Doctor = () => {
           </div>
           <div class="user-box  absolute-center">
             <input type="password" name="" required="" />
-            <label>Padedessword</label>
+            <label>Password</label>
           </div>
         </form>
       </div>
